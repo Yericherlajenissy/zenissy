@@ -3,13 +3,37 @@
 <head>
   <title>ZeNissy</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="HTML5 website template">
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
   <style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center;   /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    padding: 10px;
+}
+
+img {
+    max-width: 100%; /* Makes images scale down on smaller screens */
+    height: auto;
+}
+
+.content {
+    width: 90%;        /* Flexible width for smaller screens */
+    max-width: 1200px; /* Restrict width on larger screens */
+}
+
     .about--banner {
   padding: 20px;
   border-radius: 8px;
