@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    .about--banner {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.about--banner h2 {
+  font-size: 1.8rem;  /* Smaller font size for the heading */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-category {
+  width: 32%; /* Each column takes up 32% of the container width, which divides the section into 3 columns */
+  margin-bottom: 20px;
+}
+
+.skills-category h3 {
+  font-size: 1.2rem; /* Smaller font size for sub-headings */
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.skills-category ul {
+  list-style-type: disc;  /* Ensures the list has bullet points */
+  padding-left: 20px;     /* Adds left padding for bullets */
+}
+
+.skills-category ul li {
+  font-size: 1rem; /* Smaller font size for list items */
+  margin: 5px 0;
+  color: #fcfcfc;
+}
+
+@media screen and (max-width: 1024px) {
+  .skills-category {
+    width: 48%; /* Two columns on smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills-category {
+    width: 100%; /* Stacks vertically on mobile devices */
+  }
+}
+/* Ensure the body and html cover the full viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.projects {
+  text-align: center; /* Center the text content */
+  padding: 20px;
+}
+
+.projects h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of cards */
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Space between the cards */
+}
+
+.project-card {
+  width: 40%; /* Each card takes up 48% of the container width (2 cards per row) */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+.project-card p {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Make the layout responsive: Stacking cards on smaller screens */
+@media screen and (max-width: 768px) {
+  .project-card {
+    width: 100%; /* Stack the cards vertically on smaller screens */
+  }
+}
+
+
+  </style>
+</head>
+<body>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Portfolio</p>
+  </a>
+  <p class="device-notification--message">This is the Official Website of Zenissy's Portfolio</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Itz Mehh</span></li>
+            <li><span>Education</span></li>
+            <li><span>Skills & Talents</span></li>
+            <li><span>Projects</span></li>
+            <li><span>Contact</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Yericherla<br>Shakina<br>Jenissy</h1>
+                <p>Java & Python Enthusiast.<br>Aspiring Full Stack Developer with Expertise in AI,<br> Data Science & Generative AI <br> Quick Learner & Multitalented Performer.</p>
+                <button class="cta"> Contact
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/vis.jpg" alt="Welcome" style="width: 500px; height: auto;">
+              </div>
+              
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Education</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/school.jpg" alt="Victory" class="circle-image">
+                      </div>
+                      <p class="slider--item-title">School</p>
+                      <p class="slider--item-description">Completed 10th class Sahayamatha EM High School with 10/10 CGPA (2018-19)</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/btech.jpg" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">B.Tech</p>
+                      <p class="slider--item-description">Pursuing CSE Bachelors in Seshadri Rao Gudlavalleru Engineering College (2021-25) </p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/inter.jpeg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Intermediate</p>
+                      <p class="slider--item-description">Completed Intermediate in Sri Chaitanya Junior College, achieving an impressive 97% (2019-21)</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+                <h1 style="text-align:center";>Skills</h1>
+                <div class="skills-container">
+                  <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                      <li>Java</li>
+                      <li>Python</li>
+                      <li>C</li>
+                      <li>C++</li>
+                      <li>C#</li>
+                    </ul>
+                  </div>
+                  <div class="skills-category">
+                    <h3>Web Technologies</h3>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>React</li>
+                      <li>Node.js</li>
+                      <li>Angular</li>
+                    </ul>
+                  </div>
+                  <div class="skills-category">
+                    <h3>AI & ML Technologies</h3>
+                    <ul>
+                      <li>TensorFlow</li>
+                      <li>Keras</li>
+                      <li>PyTorch</li>
+                      <li>Scikit-Learn</li>
+                      <li>Hugging Face</li>
+                    </ul>
+                  </div>
+                  <div class="skills-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <ul>
+                      <li>MERN Stack</li>
+                      <li>Spring Boot</li>
+                      <li>Express.js</li>
+                      <li>Java Full Stack</li>
+                      <li>Python Full Stack</li>
+                    </ul>
+                  </div>
+                  <div class="skills-category">
+                    <h3>Tools</h3>
+                    <ul>
+                      <li>Git</li>
+                      <li>Eclipse</li>
+                      <li>Orange</li>
+                      <li>Apache Tomcat</li>
+                      <li>VS Code</li>
+                    </ul>
+                  </div>
+                  <div class="skills-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                      <li>Communication Skills</li>
+                      <li>Teamwork</li>
+                      <li>Problem-Solving</li>
+                      <li>Adaptability</li>
+                      <li>Leadership</li>
+                    </ul>
+                  </div>
+                </div>              
+  
+            </div>
+          </li>
+         
+          <li class="l-section section">
+
+            <div class="projects">
+              <h2>Projects</h2>
+              <div class="projects-container">
+                <div class="project-card">
+                  <h3>Soil Fertility Detection</h3>
+                  <p>Developed a machine learning system to analyze soil fertility and recommend suitable crops.</p>
+                </div>
+                <div class="project-card">
+                  <h3>Live Business Map</h3>
+                  <p>A web platform with a live map interface to track the open/closed status of businesses.</p>
+                </div>
+                <div class="project-card">
+                  <h3>Zoo Species Classification</h3>
+                  <p>Developed a neural network model to classify zoo species with high accuracy.</p>
+                </div>
+                <div class="project-card">
+                  <h3>Alumni Association Platform</h3>
+                  <p>A full-stack web platform to engage alumni for networking, donations, and job opportunities.</p>
+                </div>
+                <div class="project-card">
+                  <h3>Zumblebot</h3>
+                  <p>A chatbot that takes any input and generates any output.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>Mudinepalli,India</p>
+                    <a href="yericherlajenissy@gmail.com">yericherlajenissy@gmail.com</a>
+                    <a href="tel:+919000089618">+91 9000089618</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="https://www.linkedin.com/in/shakina-jenissy-173297235">Linkedin</a></li>
+                    <li><a href="https://www.instagram.com/ze.nissy__catharine?igsh=MTgzdXZrMTZ3OHRmbA==">Instagram</a></li>
+                    <li><a href="ysjenissy@gmail.com">Contact Me</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Nissy</li>
+    <li>Study</li>
+    <li>Skills</li>
+    <li>Project</li>
+    <li>Contact</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
+</html>
