@@ -43,7 +43,7 @@ You can simply open the `index.html` in your browser, or use a live server exten
 ## 🌍 Deployment
 
 This portfolio is deployed on \[GitHub Pages / Vercel / Netlify] (adjust based on where you deployed).
-👉 [View Live Portfolio](https://your-username.github.io/your-portfolio/)
+👉 [View Live Portfolio](https://yericherlajenissy.github.io/zenissy/)
 
 ---
 
