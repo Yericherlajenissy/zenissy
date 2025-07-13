@@ -48,19 +48,13 @@ This portfolio is deployed on \[GitHub Pages / Vercel / Netlify] (adjust based o
 ---
 
 ## 📷 Screenshots
-![Uploading image.png…]()
+<img width="1288" height="550" alt="image" src="https://github.com/user-attachments/assets/31480c1c-6f14-4b1b-bbc9-25ee09187fa9" />
 
 ---
 
 ## 🤝 Contributing
 
 This is a personal project, but feel free to open issues or submit pull requests for improvements.
-
----
-
-## 📜 License
-
-This project is open source under the [MIT License](LICENSE).
 
 ---
 
